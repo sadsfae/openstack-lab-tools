@@ -1,8 +1,8 @@
 openstack-lab-tools
 ===================
 
-This is a series of tools which help deploy Foreman-driven OpenStack deployments
-in a rapidly provisioned environment (R&D, CI, scale testing).
+This is a set of Shell and Python tools which help deploy Foreman-driven OpenStack 
+deployments in a rapidly provisioned environment (R&D, CI, scale testing).
 
 These tools will allow you to use the Foreman CLI, IPMI, and Foreman
 hostgroup-driven puppet modules to automatically deploy a configurable set of
