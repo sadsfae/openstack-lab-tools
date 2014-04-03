@@ -18,7 +18,7 @@ This is offered as-is, and not affiliated with Red Hat official deployment metho
 or any sort of support but hopefully others can find them useful.
 Original credit for this tooling goes to @kambiz-aghaiepour
 
-:: Tools Needed ::
+**Tools Needed**
 
    - Foreman 1.3.2+ (or provided by openstack-foreman-installer)
       * http://openstack.redhat.com/Deploying_RDO_using_Foreman
@@ -29,11 +29,11 @@ Original credit for this tooling goes to @kambiz-aghaiepour
    - RHOS4 or RDO repos on RHEL or CentOS
    - a local git repo (if you want to use the lab scheduling tools)
 
-:: Contents ::
+**Contents**
 
-   - provision-tools: contains Shell tools that call the Foreman CLI and IPMI tools
+   - _provision-tools_: contains Shell tools that call the Foreman CLI and IPMI tools
      to build and deploy your OpenStack cluster
 
-   - lab-tools: contains Python and Shell tools which allow automatic provisioning based
+   - _lab-tools_: contains Python and Shell tools which allow automatic provisioning based
      on node-to-cluster definitions, generates an iCal calendar file for hosting somewhere.
 
