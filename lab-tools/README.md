@@ -22,8 +22,10 @@ can be tracked.
     lab-schedule-ical-generate.sh lab-schedule-ical-driver.py \
     path/to/lab-schedule.yaml mm/dd/yyyy [ mm/dd/yyyy ]
 ```
+
     e.g. if I want to generate an ical file that will show the schedule for
     the months of april and may, I might run:
+
 
 ```
     ./lab-schedule-ical-generate.sh ./lab-schedule-ical-driver.py \
@@ -32,5 +34,6 @@ can be tracked.
     `for i in $(seq -w 1 31) ; do echo -n "05/$i/2014 " ; done` \
       > newcal
 ```
+
     Then, copy the file newcal to your calendar host as:
     /srv/cal/calendars/schedule.ics
