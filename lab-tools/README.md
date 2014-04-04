@@ -16,4 +16,21 @@ can be tracked.
    * **lab-schedule-ical-generate.sh**
           - generates the iCal file to reflect current status of nodes, tests, etc.
    * **lab-schedule-ical-driver.py**
-          - ????
+          - used by the lab-schedule-ical-generate.sh to generate the
+           ical entry for a single day.  The way to call the wrapper is:
+```
+    lab-schedule-ical-generate.sh lab-schedule-ical-driver.py \
+    path/to/lab-schedule.yaml mm/dd/yyyy [ mm/dd/yyyy ]
+```
+    e.g. if I want to generate an ical file that will show the schedule for
+    the months of april and may, I might run:
+
+```
+    ./lab-schedule-ical-generate.sh ./lab-schedule-ical-driver.py \
+    ./../data/scale/lab-schedule.yaml \
+    `for i in $(seq -w 1 30) ; do echo -n "04/$i/2014 " ; done` \
+    `for i in $(seq -w 1 31) ; do echo -n "05/$i/2014 " ; done` \
+      > newcal
+```
+    Then, copy the file newcal to your calendar host as:
+    /srv/cal/calendars/schedule.ics
