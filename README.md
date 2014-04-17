@@ -23,6 +23,7 @@ Original credit for this tooling goes to @kambiz-aghaiepour
    - Foreman 1.3.2+ (or provided by openstack-foreman-installer)
       * http://openstack.redhat.com/Deploying_RDO_using_Foreman
    - quickstack/Astapor modules (or ones provided by openstack-foreman-installer)
+      * https://github.com/redhat-openstack/astapor
    - Hammer CLI
       * http://blog.theforeman.org/2013/11/hammer-cli-for-foreman-part-i-setup.html
    - Some IPMI tooling (vendor provided or similiar: our examples use Dell/Racadm)
