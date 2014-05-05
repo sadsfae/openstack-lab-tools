@@ -18,6 +18,8 @@ This is offered as-is, and not affiliated with Red Hat official deployment metho
 or any sort of support but hopefully others can find them useful.
 Original credit for this tooling goes to @kambiz-aghaiepour
 
+Here's a video demo of reprovisioning 70 bare-metal hosts into a new OpenStack cluster: http://youtu.be/i6r7W-HtufU
+
 **Tools Needed**
 
    - Foreman 1.3.2+ (or provided by openstack-foreman-installer)
